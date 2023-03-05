@@ -89,3 +89,7 @@ CPU threads: 1; OS:Linux 3.2; UI render: default; VCL: gtk2;
 ロケール: ja-JP (ja_JP.UTF-8); UIの言語: ja-JP
 Calc: threaded
 ~~~
+
+# ToDo
+
+ * [LibreOffice Calc にて範囲名を参照を行うと起動時にエラーになる](https://ask.libreoffice.org/t/libreoffice-calc/88398)のを解決する。(現在回答受け付け中)
