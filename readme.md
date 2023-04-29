@@ -58,7 +58,7 @@ Calc会計帳は会計のためのソフトウェアであり、税務である�
 
 [最新バージョンのCalc会計帳](https://github.com/qq542vev/calc-kaikeicho/releases/latest)をダウンロードして、LibreOffice Calc で開きます。メニューバーの「シート」>>「名前付きの範囲または式」>>「管理」を順に選択します。名前の中から「期首日」と「期末日」を探しだし、日付となる値を変更します。
 
--[![「シート」>>「名前付きの範囲または式」>>「管理」](images/thumbnails/menu-bar.png)](images/menu-bar.png) [![名前の管理](images/thumbnails/manage-names.png)](images/manage-names.png)
+[![「シート」>>「名前付きの範囲または式」>>「管理」](images/thumbnails/menu-bar.png)](images/menu-bar.png) [![名前の管理](images/thumbnails/manage-names.png)](images/manage-names.png)
 
 ## 初めて記帳を行う場合
 
