@@ -56,7 +56,9 @@ Calc会計帳は会計のためのソフトウェアであり、税務である�
 
 # 利用方法
 
-[最新バージョンのCalc会計帳](https://github.com/qq542vev/calc-kaikeicho/releases/latest)をダウンロードして、LibreOffice Calc で開きます。メニューバーの「シート」>>「名前付きの範囲または式」>>「管理」を選択します。名前の中から「期首日」と「期末日」を探しだし、日付となる値を変更します。
+[最新バージョンのCalc会計帳](https://github.com/qq542vev/calc-kaikeicho/releases/latest)をダウンロードして、LibreOffice Calc で開きます。メニューバーの「シート」>>「名前付きの範囲または式」>>「管理」を順に選択します。名前の中から「期首日」と「期末日」を探しだし、日付となる値を変更します。
+
+-[![「シート」>>「名前付きの範囲または式」>>「管理」](images/thumbnails/menu-bar.png)](images/menu-bar.png) [![名前の管理](images/thumbnails/manage-names.png)](images/manage-names.png)
 
 ## 初めて記帳を行う場合
 
@@ -78,7 +80,7 @@ Calc会計帳は会計のためのソフトウェアであり、税務である�
 
 # 動作確認
 
-Calc会計長は以下のコンピューター環境で動作を確認しています。
+Calc会計帳は以下のコンピューター環境で動作を確認しています。
 
 ~~~
 バージョン: 6.2.8.2
@@ -88,10 +90,10 @@ CPU threads: 1; OS:Linux 3.2; UI render: default; VCL: gtk2;
 Calc: threaded
 ~~~
 
-# バグ回避ためにマクロの使用
+# バグ回避ためにマクロを使用
 
-2023年04月28日現在 LibreOffice Calc の[範囲名参照にはバグがあり](https://ask.libreoffice.org/t/libreoffice-calc/88398)、Calc会計帳ではそれを回避するために止むを得ずマクロを使用しています。ファイルを開いたときにマクロが実行されます。マクロが実行されない場合は[マクロセキュリティレベル](https://help.libreoffice.org/latest/ja/text/shared/optionen/macrosecurity_sl.html)を変更してください。
+2023年04月28日現在 LibreOffice Calc の[範囲名参照にはバグがあり](https://ask.libreoffice.org/t/libreoffice-calc/88398)、Calc会計帳ではそれを回避するために止むを得ずマクロを使用しています。ファイルを開いたときにマクロが実行されます。マクロが実行されない場合は、[マクロセキュリティレベル](https://help.libreoffice.org/latest/ja/text/shared/optionen/macrosecurity_sl.html)を変更してください。
 
-マクロを無効にしてCalc会計帳を利用するには、ファイルを開いてメニューバーから「シート」、「名前付き範囲または式」、「管理」を順に選択します。どの範囲名でもよいので「参照範囲または数式」の入力欄を選択します。何も変更せず「OK」を選択します。この作業はファイルを開く度に実行してください。
+マクロを無効のままCalc会計帳を利用するには、ファイルを開いてメニューバーから「シート」>>「名前付き範囲または式」>>「管理」を順に選択します。どの範囲名でもよいので「参照範囲または数式」の入力欄を選択します。何も変更せず「OK」を選択します。この作業はファイルを開く度に実行してください。
 
 LibreOffice Calc のバグが解決され次第、このマクロは取り除かれる予定です。
