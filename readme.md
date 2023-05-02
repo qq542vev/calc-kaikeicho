@@ -19,6 +19,8 @@
 
 # Calc会計帳
 
+[![仕訳帳](images/thumbnails/shiwakechou.png)](images/shiwakechou.png "仕訳帳") [![合計残高試算表](images/thumbnails/goukeizandakashisanhyou.png)](images/goukeizandakashisanhyou.png "合計残高試算表") [![損益計算書](images/thumbnails/pl.png)](images/pl.png "損益計算書") [![貸借対照表](images/thumbnails/bs.png)](images/bs.png "貸借対照表")
+
 Calc会計帳は [LibreOffice Calc](https://ja.libreoffice.org/discover/calc/) で動作する小規模個人事業向けの無料会計ソフトウェアです。
 
 # 特徴
